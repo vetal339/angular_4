@@ -1,0 +1,31 @@
+p{
+  color: yellow;
+}
+:host{
+  display: block;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+:host-context(.bg-dark){
+  h3 {
+    color: lightseagreen;
+  }
+  h4{
+    color: aliceblue;
+  }
+  p {
+    color: white;
+  }
+}
+:host-context(.bg-light){
+  h3 {
+    color: darkcyan;
+  }
+  h4{
+    color: cadetblue;
+  }
+  p {
+    color: indigo;
+  }
+}
+
